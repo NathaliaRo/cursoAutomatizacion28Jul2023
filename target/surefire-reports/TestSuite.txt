@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 38.035 s <<< FAILURE! - in TestSuite
+registrarUsuario(Edit.EducacionIT.Clase4Test)  Time elapsed: 18.594 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62e557228bd90a3872efa05032a73c62, sendKeysToElement {id=BA41B343802482DA28BF6A4F9C9B61F3_element_78, value=[Ljava.lang.CharSequence;@59f45950}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53473}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53473/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (62e557228bd90a3872efa05032a73c62)] -> xpath: //input[@id='email']]
+Session ID: 62e557228bd90a3872efa05032a73c62
+	at Edit.EducacionIT.Clase4Test.registrarUsuario(Clase4Test.java:77)
+
+buscarPalabra(Edit.EducacionIT.Clase5Test)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at Edit.EducacionIT.Clase5Test.buscarPalabra(Clase5Test.java:79)
+
+contactar(Edit.EducacionIT.Clase5Test)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at Edit.EducacionIT.Clase5Test.contactar(Clase5Test.java:38)
+
+cerrarNavegador(Edit.EducacionIT.Clase5Test)  Time elapsed: 0.102 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at Edit.EducacionIT.Clase5Test.cerrarNavegador(Clase5Test.java:90)
+
